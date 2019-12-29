@@ -1,0 +1,182 @@
+/*
+Theme Name: Barber Theme
+Theme URI:
+Description: Cool theme for BarberShop
+Version: 1.0
+Author: Emanuele Elias
+Author URI:
+*/
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Light-webfont.woff') format('woff');
+    font-style: normal;
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-LightItalic-webfont.woff') format('woff');
+    font-style: italic;
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Bold-webfont.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @media only screen and (max-width: 480px) {
+      button {
+          height: 50px;
+         
+      }
+  }
+  @media only screen and (max-width: 950px) {
+      #tariffe {
+          float: none;
+          
+      }
+      #dove {
+          float: left;
+          margin-right: 5%;
+          margin-left: 15%;
+          margin-top: 5%;
+          margin-bottom: 5%;
+      }
+      form {
+          display: block;
+         
+      }
+     
+  }
+  body {
+      font-family: Roboto;
+  }
+  header {
+      background-color: #aeb0b9dc;
+      color: whitesmoke;
+      font-size: 18px;
+      width: 100%;
+      font-family: 'Long Cang' ;
+      text-align: center;
+      padding: 5px;
+  }
+  article {
+      color: whitesmoke;
+      background-color: #2f59a6;
+      padding-top: 5%;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-bottom: 5%;
+      text-align: center;
+  }
+  #p1 {
+      padding-bottom: 2.5%;
+      padding-top: 1%;
+  }
+  
+  #pole {
+      display: block;
+      margin: auto;
+  }
+  #riga1 {
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+  #tariffe {
+      float: left;
+      margin-right: 15%;
+      margin-left: 15%;
+  }
+  
+ 
+  iframe {
+      width: 70%;
+      margin-left: 15%;
+      padding-bottom: 5%;
+  }
+#page {
+    overflow: hidden;
+    background-color: #ad1256;
+    padding-bottom: 5%;
+}
+  footer {
+      background-color: #aeb0b9;
+      padding: 4%;
+      font-size: 14px;
+      text-align: center;
+      font-weight: bold;
+  }
+
+  table {
+      border: 5px dotted whitesmoke;
+      color: whitesmoke;
+  }
+  td {
+      height: 35px;
+      padding: 15px;
+  }
+  #riga1 h1 {
+      color: whitesmoke;
+  }
+  #dove {
+      color: whitesmoke;
+  }
+  #dove p {
+      margin-bottom: 3%;
+  }
+  #dove h3 {
+      margin-bottom: 1%;
+  }
+  h2 {
+      color: whitesmoke;
+      margin-bottom: 3%;
+  } 
+  form {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20%;
+      width: 60%;
+  }
+  textarea {
+      margin-bottom: 2%;
+  }
+  input {
+    margin-bottom: 2%;
+  }
+  #email {
+      margin-bottom: 10%;
+  }
+  button {
+      display: block;
+      width: 25%;
+      padding: 5px;
+      border-radius: 15px;
+      border: 2px solid whitesmoke;
+      outline: none;
+      background-color: #ad1256 ;
+      color: whitesmoke;
+  }
+  button:hover {
+      background-color: whitesmoke;
+      color: black;
+  }
+  ::placeholder {
+      font-family: Roboto;
+      font-size: 15px;
+  }
+  textarea, input {
+      padding: 5px;
+      border-radius: 3px;
+      outline: none;
+      border: none;
+      background-color: whitesmoke;
+  }
+  
